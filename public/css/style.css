@@ -1,0 +1,89 @@
+
+.db-pricing-seven {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid #C5C2C2;
+    background-color: #EDEDED;
+}
+.db-pricing-seven:hover{
+    -webkit-box-shadow: 1px -1px 10px #c4c4c4;
+    -moz-box-shadow: 1px -1px 10px #c4c4c4;
+    -o-box-shadow: 1px -1px 10px #c4c4c4;
+    box-shadow: 1px -1px 10px #c4c4c4;
+}
+.db-pricing-seven ul {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+    padding-left: 0px;
+}
+.db-pricing-seven ul li {
+    border-bottom: solid 1px #D8D8D8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.db-pricing-seven ul li:first-child{
+    text-transform: uppercase;
+}
+.db-pricing-seven ul li{
+    font-size: 20px;
+}
+.db-pricing-seven ul li.price {
+    background-color: #fff;
+    padding: 40px 20px 20px 20px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #353c3e;
+    font-weight: 900;
+}
+.db-pricing-seven ul li.price i {
+    padding: 30px;
+    font-size: 50px;
+    display: block;
+}
+.add ul li.price{
+    padding-top: 10px;
+    color: #d6d6d6;
+}
+.db-pricing-seven .pricing-footer {
+    padding: 20px;
+}
+.db-pricing-seven .pricing-footer a i {
+    margin: 5px;
+    top: 3px;
+}
+.db-wrapper .close{
+    position: absolute;
+    display: none;
+    float: none;
+    left: 88%;
+    font-size: 30px;
+}
+.db-wrapper:hover .close{
+    display: block;
+}
+.db-wrapper .edit{
+    margin-top: 32px;
+    background-color: #000;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+
+    color: #fff;
+
+    border-radius: 30px;
+}
+.db-wrapper .edit i{
+    line-height: 28px;
+}
+.db-wrapper .remove:hover{
+    opacity: .5;
+    color: #ff0000;
+}
+.db-wrapper .edit:hover{
+    opacity: .5;
+    background-color: #3d7a14;
+}
